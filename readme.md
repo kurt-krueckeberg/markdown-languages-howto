@@ -1,6 +1,6 @@
 - Intros
   - [Intro with Gitlab Antora Demo repos](https://www.magnolia-cms.com/blog/using-asciidoc-and-antora-to-create-online-technical-documentation.html)
-  - The three key concepts you need to [know](https://matthewsetter.com/antora/three-core-concepts/)
+  - [The three key concepts you need to know](https://matthewsetter.com/antora/three-core-concepts/)
   - Videos intros
     - [Documentation for Users with AsciiDoc and Antora](https://www.youtube.com/watch?v=LT0a--DNJhI)
 - Antora Documetation on [How to Organize Your Content Files](https://docs.antora.org/antora/latest/organize-content-files/)
