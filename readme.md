@@ -1,6 +1,16 @@
-Installation of Antora
+Installation of Antora Locally
 
-[Install and Run Antora Quickstart](https://docs.antora.org/antora/latest/install-and-run-quickstart/)
+See [Install and Run Antora Quickstart](https://docs.antora.org/antora/latest/install-and-run-quickstart/)
+
+Install nodejs using apt package manager. Then install nvm per: <https://github.com/nvm-sh/nvm#installation-and-update>
+
+Next install antora in your antora project directory:
+
+```bash
+cd myantora
+node -e "fs.writeFileSync('package.json', '{}')"
+npm i -D -E @antora/cli@3.1
+```
 
 - Intros
   - [Intro with Gitlab Antora Demo repos](https://www.magnolia-cms.com/blog/using-asciidoc-and-antora-to-create-online-technical-documentation.html)
