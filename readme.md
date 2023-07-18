@@ -1,7 +1,7 @@
 ## Myst
 
-[mystmd.org](https://mystmd.org/guide/quickstart-myst-markdown)
-[Sphinx wiht Myst](https://www.sphinx-doc.org/en/master/usage/markdown.html)
+- [mystmd.org](https://mystmd.org/guide/quickstart-myst-markdown)
+- [Sphinx wiht Myst](https://www.sphinx-doc.org/en/master/usage/markdown.html)
 
 ## Antora
 
