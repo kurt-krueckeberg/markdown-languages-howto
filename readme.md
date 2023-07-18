@@ -1,10 +1,35 @@
-## Myst
+# Markdown Languages and Their Build Tools
+
+## Myst and Sphinx
 
 - [mystmd.org](https://mystmd.org/guide/quickstart-myst-markdown)
 - [Sphinx wiht Myst](https://www.sphinx-doc.org/en/master/usage/markdown.html)
 
-## Antora
+`{list-table}` was the hardest to understand at first. Here is an example that works that shows column widths specified in relative terms
+using integers. The 2nd column is twice the width of the first
 
+```
+    ```{list-table} Example 4 of LZS device product code
+    :header-rows: 1
+    :name: example-4
+    :align: left
+    :widths: 1 2
+    
+    * - Field
+      - Value
+    * - `device.brand_name`
+      - "VISX STAR S4 IR EXCIMER LASER"
+    * - `device.generic_name`
+      - "EXCIMER LASER"
+    * - `device.openfda.device_name`
+      - "Excimer Laser System"
+    * - `device.openfda.device_class`
+      - 3
+    ```
+```
+
+## Antora
+    
 ### Installation of Antora Locally
 
 See [Install and Run Antora Quickstart](https://docs.antora.org/antora/latest/install-and-run-quickstart/)
