@@ -1,3 +1,7 @@
+Installation of Antora
+
+[Install and Run Antora Quickstart](https://docs.antora.org/antora/latest/install-and-run-quickstart/)
+
 - Intros
   - [Intro with Gitlab Antora Demo repos](https://www.magnolia-cms.com/blog/using-asciidoc-and-antora-to-create-online-technical-documentation.html)
   - [The three key concepts you need to know](https://matthewsetter.com/antora/three-core-concepts/)
