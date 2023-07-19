@@ -60,10 +60,10 @@ You can also use percentages like this:
 ## Antora
 
 Antora is a build tool for [Asciidoctor Markdown](https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/).
-Asciidoctor allows a lot of flexibility when creating tables. It seems to have as extensive a set of features 
-as Sphinx (using RestructuredText or MyST Markdown) or the MyST website build tool.
+Antora is designed to work with one or more github repositories where the site content resides.
 
-Antora is designed to create a website whose Asciidoctor content is stored in one or more github repositories. 
+Asciidoctor allows a lot of flexibility when creating tables, and it seems to have just as extensive feature set
+as Sphinx (using RestructuredText or MyST Markdown) or the MyST standalone website build tool.
     
 ### Installation of Antora Locally
 
