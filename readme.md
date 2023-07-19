@@ -3,6 +3,7 @@
 ## Myst and Sphinx
 
 - [mystmd.org](https://mystmd.org/guide/quickstart-myst-markdown)
+  - [Myst Website Build Setup](https://mystmd.org/guide/quickstart-myst-websites)
 - [Sphinx wiht Myst](https://www.sphinx-doc.org/en/master/usage/markdown.html)
 
 `{list-table}` was the hardest to understand at first. Here is an example that works that shows column widths specified in relative terms
