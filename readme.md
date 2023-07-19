@@ -64,7 +64,7 @@ You can also use percentages like this:
 
 ## Sphinx
 
-Like MyST Sphinx is a webiste build system for documentation written in RestructuredText. It diffrent thems for different layouts and appearance.
+Like MyST [Sphinx](https://www.sphinx-doc.org/en/master/) is a webiste build system for documentation written in RestructuredText. It diffrent thems for different layouts and appearance.
 I found that it was easier to first create an Python virtual enviroment and install all Python packages, such as MyST, in the
 virtual environment. Fist install these pacages:
 
