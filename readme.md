@@ -2,8 +2,15 @@
 
 ## Myst and Sphinx
 
-- [mystmd.org](https://mystmd.org/guide/quickstart-myst-markdown)
-  - [Myst Website Build Setup](https://mystmd.org/guide/quickstart-myst-websites)
+MyST (Markedly Structured Text is a superset of Commonmark. As the MyST Spec explains: 
+
+> MyST is a superset of CommonMark (a standard form of Markdown) and allows you to directly create “directives” and “roles” as extension points
+in the language. These extensions points are influenced by ReStructured Text (RST) and Sphinx -- pulling on the nomenclature and introducing additional
+standards where appropriate. directives are block-level extension points, like callout panels, tabs, figures or embedded charts; and roles are inline extension points, for components like references, citations, or inline math.
+
+[mystmd.org](https://mystmd.org/guide/quickstart-myst-markdown) is its website.
+
+MyST has its own [Myst Website Build System](https://mystmd.org/guide/quickstart-myst-websites)
 - [Sphinx wiht Myst](https://www.sphinx-doc.org/en/master/usage/markdown.html)
 
 `{list-table}` was the hardest to understand at first. Here is an example that works that shows column widths specified in relative terms
