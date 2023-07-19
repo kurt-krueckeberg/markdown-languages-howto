@@ -8,8 +8,11 @@ MyST (Markedly Structured Text is a superset of Commonmark. As the MyST Spec exp
 in the language. These extensions points are influenced by ReStructured Text (RST) and Sphinx -- pulling on the nomenclature and introducing additional
 standards where appropriate. directives are block-level extension points, like callout panels, tabs, figures or embedded charts; and roles are inline extension points, for components like references, citations, or inline math.
 
-The [mystmd.org](https://mystmd.org/guide/quickstart-myst-markdown) website explains the MyST markdown syntax. MyST can be [used with Sphinx]((https://www.sphinx-doc.org/en/master/usage/markdown.html)
-to allow you to write in MyST markdown rather than restructuredtext. Like Sphinx, MyST has its own [Myst Website Build System](https://mystmd.org/guide/quickstart-myst-websites)
+The [mystmd.org](https://mystmd.org/guide/quickstart-myst-markdown) website has Quickstart tutorails and an Authoring guide that explains the MyST markdown syntax.
+The MyST is written in javascript. MyST also has its own [Website Build System](https://mystmd.org/guide/quickstart-myst-websites).
+
+MyST can also be with [Sphinx](https://www.sphinx-doc.org/en/master/) as an alternative [Markdown language for Sphinx](https://www.sphinx-doc.org/en/master/usage/markdown.html)
+instead of restructuredtext. Sphinx is written in Python, and the MyST parser for Sphinx is also in Python. 
 
 MyST has a `list-table` whose syntax takes some getting used to. Here is an example of it that shows how to  specify column widths
 in relative terms using integers. The 2nd column is twice the width of the first
@@ -56,6 +59,41 @@ You can also use percentages like this:
       - 3
     ```
 ```
+
+## Sphinx
+
+I found that it was easier to first create an Python virtual enviroment and install all Python packages, such as MyST, in the
+virtual environment. Fist install these pacages:
+
+```bash
+$ sudo apt install -y python3-pip
+$ sudo apt install -y python3-venv
+```
+
+Then do:
+
+```bash
+python3 -m venv python-venv
+```
+
+Now you can use the virtual enviroment, say, in a Sphinx project by activating the virtual enviroment each time. You install any
+python3 packages like `myst` in the virtual enviroment.
+
+```bash
+source ~/python-venv/bin/activate
+```
+
+This bash script builds run Sphinx `make` in the virtual enviromnet:
+
+```bash
+source ~/python-venv/bin/activate
+make clean && make html
+deactivate
+```
+```
+
+
+
 
 ## Antora
 
