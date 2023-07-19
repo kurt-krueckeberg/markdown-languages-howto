@@ -14,6 +14,12 @@ The MyST is written in javascript. MyST also has its own [Website Build System](
 MyST can also be with [Sphinx](https://www.sphinx-doc.org/en/master/) as an alternative to RestructuredText. See [MyST Markdown for Sphinx](https://www.sphinx-doc.org/en/master/usage/markdown.html)
 Sphinx is written in Python, and the MyST parser for Sphinx is also in Python. 
 
+To export webpages to PDF, you need to install textlive-full:
+
+```bash
+sudo apt install -y texlive-full
+```
+
 ### Tables in MyST Markdown
 
 MyST has a `list-table` whose syntax takes some getting used to. Here is an example of it that shows how to  specify column widths
