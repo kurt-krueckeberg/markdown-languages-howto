@@ -8,13 +8,11 @@ MyST (Markedly Structured Text is a superset of Commonmark. As the MyST Spec exp
 in the language. These extensions points are influenced by ReStructured Text (RST) and Sphinx -- pulling on the nomenclature and introducing additional
 standards where appropriate. directives are block-level extension points, like callout panels, tabs, figures or embedded charts; and roles are inline extension points, for components like references, citations, or inline math.
 
-[mystmd.org](https://mystmd.org/guide/quickstart-myst-markdown) is its website.
+The [mystmd.org](https://mystmd.org/guide/quickstart-myst-markdown) website explains the MyST markdown syntax. MyST can be [used with Sphinx]((https://www.sphinx-doc.org/en/master/usage/markdown.html)
+to allow you to write in MyST markdown rather than restructuredtext. Like Sphinx, MyST has its own [Myst Website Build System](https://mystmd.org/guide/quickstart-myst-websites)
 
-MyST has its own [Myst Website Build System](https://mystmd.org/guide/quickstart-myst-websites)
-- [Sphinx wiht Myst](https://www.sphinx-doc.org/en/master/usage/markdown.html)
-
-`{list-table}` was the hardest to understand at first. Here is an example that works that shows column widths specified in relative terms
-using integers. The 2nd column is twice the width of the first
+MyST has a `list-table` whose syntax takes some getting used to. Here is an example of it that shows how to  specify column widths
+in relative terms using integers. The 2nd column is twice the width of the first
 
 ```
     ```{list-table} Example 4 of LZS device product code
@@ -36,7 +34,36 @@ using integers. The 2nd column is twice the width of the first
     ```
 ```
 
+You can also use percentages like this:
+
+```
+    ```{list-table} Example 4 of LZS device product code
+    :header-rows: 1
+    :name: example-4
+    :align: left
+    :width: 100%
+    :widths: 35 65
+    
+    * - Field
+      - Value
+    * - `device.brand_name`
+      - "VISX STAR S4 IR EXCIMER LASER"
+    * - `device.generic_name`
+      - "EXCIMER LASER"
+    * - `device.openfda.device_name`
+      - "Excimer Laser System"
+    * - `device.openfda.device_class`
+      - 3
+    ```
+```
+
 ## Antora
+
+Antora is a build tool for [Asciidoctor Markdown](https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/).
+Asciidoctor allows a lot of flexibility when creating tables. It seems to have as extensive a set of features 
+as Sphinx (using RestructuredText or MyST Markdown) or the MyST website build tool.
+
+Antora is designed to create a website whose Asciidoctor content is stored in one or more github repositories. 
     
 ### Installation of Antora Locally
 
