@@ -98,10 +98,14 @@ deactivate
 ```
 ```
 
+## Executable Books
+
+[Executable Books](https://github.com/executablebooks)  is an international collaboration to build open source tools that facilitate publishing computational narratives using the Jupyter ecosystem.
+
+You can use [MyST Markdown in JupyterLab](https://executablebooks.org/en/latest/blog/author/rowan-cockett/))
 
 
-
-## Antora
+## Antora and Asciidoctor
 
 Antora is a build tool for [Asciidoctor Markdown](https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/).
 Antora is designed to work with one or more github repositories where the site content resides.
