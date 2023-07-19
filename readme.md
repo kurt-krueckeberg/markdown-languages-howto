@@ -1,6 +1,6 @@
 # Markdown Languages and Their Build Tools
 
-## Myst and Sphinx
+## MyST
 
 MyST (Markedly Structured Text is a superset of Commonmark. As the MyST Spec explains: 
 
@@ -11,8 +11,10 @@ standards where appropriate. directives are block-level extension points, like c
 The [mystmd.org](https://mystmd.org/guide/quickstart-myst-markdown) website has Quickstart tutorails and an Authoring guide that explains the MyST markdown syntax.
 The MyST is written in javascript. MyST also has its own [Website Build System](https://mystmd.org/guide/quickstart-myst-websites).
 
-MyST can also be with [Sphinx](https://www.sphinx-doc.org/en/master/) as an alternative [Markdown language for Sphinx](https://www.sphinx-doc.org/en/master/usage/markdown.html)
-instead of restructuredtext. Sphinx is written in Python, and the MyST parser for Sphinx is also in Python. 
+MyST can also be with [Sphinx](https://www.sphinx-doc.org/en/master/) as an alternative to RestructuredText. See [MyST Markdown for Sphinx](https://www.sphinx-doc.org/en/master/usage/markdown.html)
+Sphinx is written in Python, and the MyST parser for Sphinx is also in Python. 
+
+### Tables in MyST Markdown
 
 MyST has a `list-table` whose syntax takes some getting used to. Here is an example of it that shows how to  specify column widths
 in relative terms using integers. The 2nd column is twice the width of the first
@@ -62,6 +64,7 @@ You can also use percentages like this:
 
 ## Sphinx
 
+Like MyST Sphinx is a webiste build system for documentation written in RestructuredText. It diffrent thems for different layouts and appearance.
 I found that it was easier to first create an Python virtual enviroment and install all Python packages, such as MyST, in the
 virtual environment. Fist install these pacages:
 
