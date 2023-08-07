@@ -134,6 +134,8 @@ npm i -D -E @antora/cli@3.1
 ```
 
 - Intros
+  - [Using Antora to Publish Your Site](https://fedoramagazine.org/using-antora-for-your-open-source-documentation/) is clear, short and straight forward.
+- Others
   - [Intro with Gitlab Antora Demo repos](https://www.magnolia-cms.com/blog/using-asciidoc-and-antora-to-create-online-technical-documentation.html)
   - [The three key concepts you need to know](https://matthewsetter.com/antora/three-core-concepts/)
   - Video: [Documentation for Users with AsciiDoc and Antora](https://www.youtube.com/watch?v=LT0a--DNJhI)
