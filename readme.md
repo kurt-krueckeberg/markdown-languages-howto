@@ -102,8 +102,6 @@ source ~/python-venv/bin/activate
 make clean && make html
 deactivate
 ```
-```
-
 ## Executable Books
 
 [Executable Books](https://github.com/executablebooks)  is an international collaboration to build open source tools that facilitate publishing computational narratives using the Jupyter ecosystem.
