@@ -106,13 +106,15 @@ deactivate
 
 [Executable Books](https://github.com/executablebooks)  is an international collaboration to build open source tools that facilitate publishing computational narratives using the Jupyter ecosystem.
 
-You can use [MyST Markdown in JupyterLab](https://executablebooks.org/en/latest/blog/author/rowan-cockett/))
-
+You can use [MyST Markdown in JupyterLab](https://executablebooks.org/en/latest/blog/author/rowan-cockett/)).
 
 ## Antora and Asciidoctor
 
-Antora is a build tool for [Asciidoctor Markdown](https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/).
-Antora is designed to work with one or more github repositories where the site content resides.
+[Antora](https://antora.org) is a sophisticated static site generator for [Asciidoctor Markdown](https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/).
+Unlink Sphinx or most other static site generators, an Antora project does not contain your Asciidoc markdown. Instead it pulls the markdown from
+remote git repos. They maybe be several such repos, as in the Fedora documentation.
+
+Github and Gitlab support sites built from Asciidoc pages. Gitlab supports hosting sites built with Antora. See [Publish to Gitlab pages](https://docs.antora.org/antora/latest/publish-to-gitlab-pages/).
 
 Asciidoctor allows a lot of flexibility when creating tables, and it seems to have just as extensive feature set
 as Sphinx (using RestructuredText or MyST Markdown) or the MyST standalone website build tool.
