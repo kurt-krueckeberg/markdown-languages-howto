@@ -133,10 +133,11 @@ node -e "fs.writeFileSync('package.json', '{}')"
 npm i -D -E @antora/cli@3.1
 ```
 
-To install the lunr extension for Antora:
+To install the lunr extension and Antora site generator extensions for Antora:
 
 ```bash
 npm i @antora/lunr-extension
+npm i @antora/site-generator
 ```
 
 - Intros
