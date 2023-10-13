@@ -133,6 +133,12 @@ node -e "fs.writeFileSync('package.json', '{}')"
 npm i -D -E @antora/cli@3.1
 ```
 
+To install the lunr extension for Antora:
+
+```bash
+npm i @antora/lunr-extension
+```
+
 - Intros
   - [Using Antora to Publish Your Site](https://fedoramagazine.org/using-antora-for-your-open-source-documentation/) is clear, short and straight forward.
 - Others
