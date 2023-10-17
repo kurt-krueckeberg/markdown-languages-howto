@@ -140,11 +140,16 @@ npm i @antora/lunr-extension
 npm i @antora/site-generator
 ```
 
+### Antora UI
+
+See [Antora Default UI](https://docs.antora.org/antora-ui-default/).
+
+### Links
+
 - Intros
   - [Using Antora to Publish Your Site](https://fedoramagazine.org/using-antora-for-your-open-source-documentation/) is clear, short and straight forward.
 - Others
-  - [Intro with Gitlab Antora Demo repos](https://www.magnolia-cms.com/blog/using-asciidoc-and-antora-to-create-online-technical-documentation.html)
-  - [The three key concepts you need to know](https://matthewsetter.com/antora/three-core-concepts/)
+   - [The three key concepts you need to know](https://matthewsetter.com/antora/three-core-concepts/)
   - Video: [Documentation for Users with AsciiDoc and Antora](https://www.youtube.com/watch?v=LT0a--DNJhI)
     - [slides](https://speakerdeck.com/ahus1/antora-3-release-celebration) click the download icon at bottom
 - Official documetation on [How to Organize Your Content Files](https://docs.antora.org/antora/latest/organize-content-files/)
